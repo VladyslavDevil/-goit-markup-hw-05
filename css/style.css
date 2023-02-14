@@ -167,7 +167,6 @@ color: var(--primary-title-color);
     color:var(--ocean-color);
 }
 
-
 .current{
     color: var(--ocean-color);
     position: relative;
@@ -181,7 +180,13 @@ color: var(--primary-title-color);
     bottom: -24px;
     background-color: var(--ocean-color);
     border-radius: 2px;
+
+    transform: scaleX(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+
 
 .header-contacts {
 }
@@ -505,7 +510,7 @@ color: var(--primary-title-color);
 .footer-soc-list {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
     margin-bottom: 32px;
 }
 .footer-soc-item {
